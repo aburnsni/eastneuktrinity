@@ -14,14 +14,14 @@ facebook_username:
 twitter_username: ekcchurch
 github_username:
 address:
-  - line:
+  - line: Elie Parish Church, Main Street, Elie
   - line:
   # Feel free to add more lines here 
 telephone: 
 copyright:
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyDpmYlUBTrPIdfkGRm0dpBBIS-qqnE3prQ
 
 # Build settings
 markdown: kramdown
