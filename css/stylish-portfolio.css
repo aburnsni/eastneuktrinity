@@ -154,7 +154,7 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 226px;
     background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,45 +168,49 @@ hr.small {
     padding: 50px 0;
 }
 
-/* Services */
+/* Life */
 
-.services {
+.life {
     padding: 50px 0;
 }
 
-.service-item {
+.life-item {
     margin-bottom: 30px;
 }
 
-/* Callout */
+.life-img {
+    width:112px;
+    
+}
 
-.callout {
+.services {
+    padding: 50px 0;
     display: table;
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/services.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/* Portfolio */
+/* activities */
 
-.portfolio {
+.activities {
     padding: 50px 0;
 }
 
-.portfolio-item {
+.activities-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-activities {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-activities:hover {
     opacity: 0.8;
 }
 
@@ -241,4 +245,11 @@ hr.small {
 
 footer {
     padding: 100px 0;
+}
+
+/* Page */
+.page-image {
+    width: 300px;
+    float: right;
+
 }

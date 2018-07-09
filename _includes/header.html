@@ -1,8 +1,35 @@
 <header id="top" class="header">
-  <div class="text-vertical-center">
-    <h1>Start Bootstrap</h1>
-    <h3>Free Bootstrap Themes &amp; Templates</h3>
-    <br>
-    <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+
+<style>
+  div.logo {
+   height: 157px; /* height of image */
+}
+
+div.logo:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+img.logo-img {
+    position: absolute;
+}
+
+div.title {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 180px;  /* width of image */
+}
+</style>
+
+<div class="text-vertical-center logo" style="display:block !important; padding-top: 20px; padding-bottom: 20px;">
+    <img class="logo-img" src="/img/logo.png">
+    <div class="title">
+    <h1>{{site.title}}</h1>
+    <h3>{{site.description}}</h3>
+    </div>
   </div>
 </header>

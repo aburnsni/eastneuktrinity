@@ -6,3 +6,20 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="js/custom.js"></script> 
+
+{% if page.layout=='front' %}
+<script>
+  $(document).ready(function(){
+    $("#hide-more").click(function(){
+      $("#extras").hide();
+      $("#show-more").show();
+      $("#hide-more").hide();
+    });
+    $("#show-more").click(function(){
+      $("#extras").show();
+      $("#show-more").hide();
+      $("#hide-more").show();
+    });
+  });
+</script>
+{% endif %}
