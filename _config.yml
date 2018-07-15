@@ -2,7 +2,7 @@
 title: East Neuk Trinity
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  East Neuk Trinity Church of Scotland<br />
+  East Neuk Trinity, Church of Scotland<br />
   One Church - Three Centres of Worship
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -21,7 +21,7 @@ telephone: (01333) 340642
 copyright: East Neuk Trinity
 
 # API settings
-google_api_key: AIzaSyDpmYlUBTrPIdfkGRm0dpBBIS-qqnE3prQ
+google_api_key: AIzaSyBG1JbljIM9syp48e2PyMObv_j1aXe4ij0
 
 # Build settings
 markdown: kramdown
