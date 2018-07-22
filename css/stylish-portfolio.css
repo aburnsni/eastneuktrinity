@@ -154,12 +154,48 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
-    height: 226px;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    height: 300px;
+    /*background: url(../img/bg1.jpg) no-repeat center center scroll; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+[data-slides] {
+	background-image: url(../img/bg1.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+  div.logo {
+   height: 157px; /* height of image */
+   display:block !important; padding-top: 50px; padding-bottom: 20px;
+}
+
+div.logo:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+img.logo-img {
+    position: absolute;
+}
+
+.logo>div.title {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 180px;  /* width of image */
 }
 
 /* About */

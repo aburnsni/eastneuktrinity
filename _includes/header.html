@@ -1,31 +1,15 @@
-<header id="top" class="header">
+<header id="top" class="header"
+  data-slides='[
+    "../img/bg1.jpg",
+    "../img/bg2.jpg",
+    "../img/bg3.jpg"
+  ]'>
 
 <style>
-  div.logo {
-   height: 157px; /* height of image */
-}
 
-div.logo:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-}
-
-img.logo-img {
-    position: absolute;
-}
-
-div.title {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  margin-left: 180px;  /* width of image */
-}
 </style>
 
-<div class="text-vertical-center logo" style="display:block !important; padding-top: 20px; padding-bottom: 20px;">
+<div class="text-vertical-center logo">
     <img class="logo-img" src="/img/logo.png">
     <div class="title">
     <h1>{{site.title}}</h1>
