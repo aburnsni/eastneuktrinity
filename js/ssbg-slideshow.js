@@ -7,6 +7,13 @@
         count = 0,
         slides = slide.data("slides"),
         len = slides.length,
+        preload = function () {
+          slide.each(function(){
+            $('<img/>')[0].src = this;
+            // Alternatively you could use:
+            // (new Image()).src = this;
+        });
+        },
         n = function () {
             if (count >= len) {
                 count = 0
@@ -16,5 +23,6 @@
             });
             count++;
         };
+    preload()
     n()
 }(jQuery);
