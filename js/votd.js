@@ -1,4 +1,4 @@
-$.getJSON('https://cors.io/?https://www.biblegateway.com/votd/get/?format=json', function(data) {
+$.getJSON('https://www.biblegateway.com/votd/get/?format=json', function(data) {
     
     var text = `<div class=\"lead votd-text\">${data.votd.text}</div>
                 <div class=\"votd-ref\"><a href=\"${data.votd.permalink}\">${data.votd.display_ref}</a>
