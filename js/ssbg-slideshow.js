@@ -8,11 +8,9 @@
         slides = slide.data("slides"),
         len = slides.length,
         preload = function () {
-          slide.each(function(){
-            $('<img/>')[0].src = this;
-            // Alternatively you could use:
-            // (new Image()).src = this;
-        });
+            for (var i = 0; i < len; i++) { 
+              $('<img/>')[0].src = slides[i];
+            }
         },
         n = function () {
             if (count >= len) {
