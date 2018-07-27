@@ -1,0 +1,8 @@
+---
+layout: page
+title: "Choir"
+categories: activities
+img: choir.jpg
+permalink: choir.html
+---
+Hello

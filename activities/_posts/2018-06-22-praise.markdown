@@ -1,0 +1,8 @@
+---
+layout: page
+title: "Praise for a Summer Evening"
+categories: activities
+img: praise.jpg
+permalink: praise.html
+---
+Hello

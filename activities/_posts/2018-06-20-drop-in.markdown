@@ -1,0 +1,8 @@
+---
+layout: page
+title: "Drop in Cafe"
+categories: activities
+img: drop_in.png
+permalink: drop_in_cafe.html
+---
+Hello
