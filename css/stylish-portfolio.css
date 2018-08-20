@@ -258,18 +258,6 @@ img.logo-img {
     padding: 50px 0;
 }
 
-.activities-item {
-    margin-bottom: 30px;
-}
-
-.img-activities {
-    margin: 0 auto;
-}
-
-.img-activities:hover {
-    opacity: 0.8;
-}
-
 /* Call to Action */
 
 .contacts {
