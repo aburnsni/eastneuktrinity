@@ -5,90 +5,35 @@
         <h2>Activities</h2>
         <hr class="small">
         <div class="row">
-          <div class="col-md-4">
-            <div class="activities-item">
-              <a href="/services.html">
-                <img class="img-activities img-responsive" src="img/activities/services.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="activities-item">
-              <a href="#">
-                <img class="img-activities img-responsive" src="img/activities/guild.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="activities-item">
-              <a href="#">
-                <img class="img-activities img-responsive" src="img/activities/friendship_lunch.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="activities-item">
-              <a href="#">
-                <img class="img-activities img-responsive" src="img/activities/choir.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
+          {% for post in site.posts %}
+            {% if post.categories contains 'activities' %}
+            <div class="col-md-4 col-sm-6 card">
               <div class="activities-item">
-                <a href="#">
-                  <img class="img-activities img-responsive" src="img/activities/outreach.jpg">
+                <a href="{{ post.url | relative.url }}">
+                  <img class="img-activities img-responsive" src="img/activities/{{ post.img }}">
                 </a>
               </div>
+              <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             </div>
-            <div class="col-md-4">
-                <div class="activities-item">
-                  <a href="#">
-                    <img class="img-activities img-responsive" src="img/activities/womens_group.jpg">
-                  </a>
-                </div>
-              </div>
+            {% endif %}
+          {% endfor %}
         </div>
-        <!-- /.row (nested) -->
-        <div class="row" id="extras" style="display: none;">
-            <div class="col-md-4">
+        <!-- <div class="row" id="extras" style="display: none;">
+          {% for post in site.posts offset:6 %}
+            {% if post.categories contains 'activities' %}
+            <div class="col-md-4 col-sm-6 card">
               <div class="activities-item">
-                <a href="#">
-                  <img class="img-activities img-responsive" src="img/activities/bible_study.jpg">
+                <a href="{{ post.url }}">
+                  <img class="img-activities img-responsive" src="img/activities/{{ post.img }}">
                 </a>
               </div>
+              <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
             </div>
-            <div class="col-md-4">
-              <div class="activities-item">
-                <a href="#">
-                  <img class="img-activities img-responsive" src="img/activities/afternoon.jpg">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="activities-item">
-                <a href="#">
-                  <img class="img-activities img-responsive" src="img/activities/praise.jpg">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="activities-item">
-                <a href="#">
-                  <img class="img-activities img-responsive" src="img/activities/brownies.png">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-                <div class="activities-item">
-                  <a href="#">
-                    <img class="img-activities img-responsive" src="img/activities/drop_in.png">
-                  </a>
-                </div>
-              </div>
-          </div>
-          <!-- /.row (nested) -->
-            <button id="hide-more" class="btn btn-primary" style="display:none">Hide Items</button>
-            <button id="show-more" class="btn btn-primary">View More Items</button>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <button id="hide-more" class="btn btn-primary" style="display:none">Hide Items</button>
+        <button id="show-more" class="btn btn-primary">View More Items</button> -->
       </div>
       <!-- /.col-lg-10 -->
     </div>
