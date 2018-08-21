@@ -6,10 +6,9 @@
         <hr class="small">
         <div class="row justify-content-center">
           <div class="card-deck">
-          {% for post in site.posts %}
+          {% for post in site.activities %}
             {% assign mod2 = forloop.index | modulo: 2 %}
             {% assign mod3 = forloop.index | modulo: 3 %}
-            {% if post.categories contains 'activities' %}
               <div class="card mb-4">
                 <a href="{{ post.url | relative.url }}">
                   <img class="card-img-top" src="img/activities/{{ post.img }}">
@@ -20,7 +19,6 @@
               </div>
               {% if mod2 == 0 %}<div class="w-100 d-block d-md-none"><!-- wrap every 2 on sm--></div>{% endif %}
               {% if mod3 == 0 %}<div class="w-100 d-none d-md-block"><!-- wrap every 3 on md--></div>{% endif %}
-              {% endif %}
           {% endfor %}
           {% if mod3 == 2 %}<div class="card mb-4"></div>{% endif %}
           </div>
