@@ -15,10 +15,14 @@ layout: default
               <div class="card mb-4">
                 <a href="{{ post.url }}">
                   <img class="card-img-top" src="/img/plant_images/{{ post.plant_image }}">
+                
+                  <div class="card-body">
+                    <h4 class="card-title">{{ post.name }}</h4>
+                      {% if post.variety %}
+                        <h5 class="card-subtitle text-muted font-italic">{{ post.variety }}</h5>
+                      {% endif %}
+                  </div>
                 </a>
-                <div class="card-body">
-                  <h4 class="card-title"><a href="{{ post.url }}">{{ post.name }}</a></h4>
-                </div>
               </div>
               {% if mod2 == 0 %}<div class="w-100 d-block d-md-none"><!-- wrap every 2 on sm--></div>{% endif %}
               {% if mod3 == 0 %}<div class="w-100 d-none d-md-block"><!-- wrap every 3 on md--></div>{% endif %}
