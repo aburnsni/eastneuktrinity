@@ -1,30 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h2>{{page.title}}</h2>
+      <hr class="small">
+      {% if page.image %}
+        <img src={{ "/img/" | prepend: site.baseurl | append : page.image}} class="page-image">
+      {% endif %}
 
-  {% include head.html %}
-
-<body>
-
-  {% include navigation.html %}
-  {% include header.html %}
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h2>{{page.title}}</h2>
-        <hr class="small">
-        {% if page.image %}
-          <img src={{ "/img/" | prepend: site.baseurl | append : page.image}} class="page-image">
-        {% endif %}
-
-        {{content | markdownify}}
-      </div>
+      {{content | markdownify}}
     </div>
   </div>
-
-
-  {% include footer.html %}
-  {% include scripts.html %}
-  
-</body>
-
-</html>
+</div>
