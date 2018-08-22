@@ -252,6 +252,20 @@ img.logo-img {
     background-size: cover;
     -o-background-size: cover;
 }
+
+/* Fundraising */
+#fundraising {
+    padding: 50px 0;
+    display: table;
+    width: 100%;
+    
+    color: #fff;
+    background: url(../img/money.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 /* activities */
 
 .activities {
