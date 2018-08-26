@@ -14,6 +14,8 @@ body {
 
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 56px; /* Padding for Navbar */
+
 }
 
 .text-vertical-center {
@@ -130,7 +132,7 @@ hr.small {
 #menu-toggle {
     z-index: 1;
     position: fixed;
-    top: 0;
+    /* top: 0; */ /* updated for navbar */
     right: 0;
 }
 
