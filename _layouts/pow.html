@@ -14,12 +14,12 @@ layout: default
               {% assign mod3 = forloop.index | modulo: 3 %}
               <div class="card mb-4">
                 <a href="{{ post.url }}">
-                  <img class="card-img-top" src="/img/plant_images/{{ post.plant_image }}">
+                  <img class="card-img-top" src="/img/plant_images/thumbnail/{{ post.plant_image }}">
                 
                   <div class="card-body">
-                    <h4 class="card-title">{{ post.name }}</h4>
+                    <h4 class="card-title"><span class="font-italic">{{ post.name }}</span></h4>
                       {% if post.variety %}
-                        <h5 class="card-subtitle text-muted font-italic">{{ post.variety }}</h5>
+                        <h5 class="card-subtitle text-muted">{{ post.variety }}</h5>
                       {% endif %}
                   </div>
                 </a>
