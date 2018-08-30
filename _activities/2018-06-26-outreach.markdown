@@ -3,6 +3,6 @@ layout: page
 title: "Outreach"
 categories: activities
 img: outreach.jpg
-permalink: outreach.html
+permalink: outreach
 ---
 Hello
