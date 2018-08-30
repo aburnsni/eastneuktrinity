@@ -3,7 +3,7 @@ layout: page
 title: "Services"
 categories: activities
 img: services.jpg
-permalink: services
+permalink: services.html
 ---
 <h2>July</h2>
 

@@ -3,6 +3,6 @@ layout: page
 title: "The Guild"
 categories: activities
 img: guild.jpg
-permalink: the_guild
+permalink: the_guild.html
 ---
 Hello

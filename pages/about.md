@@ -1,7 +1,7 @@
 ---
 title: A Welcome From the Congregation
 layout: page
-permalink: about
+permalink: about.html
 ---
 Life is a journey and we at East Neuk Trinity Church  would be very pleased to walk part or all of it with you.
 

@@ -1,7 +1,7 @@
 ---
 title: Marriage
 layout: page
-permalink: marriage
+permalink: marriage.html
 image: p_marriage.jpg
 ---
 The minister is happy to meet with all couples who are contemplating being married in the area. It is not necessary to be a member of a church or adherent to a certain denomination in order to be married in our churches, because the general ethos is based on openness and a sense of welcome. Most couples wish to have God’s blessing on their union, and it is the desire of the congregations to enable that to happen.

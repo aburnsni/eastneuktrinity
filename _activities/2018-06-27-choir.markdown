@@ -3,6 +3,6 @@ layout: page
 title: "Choir"
 categories: activities
 img: choir.jpg
-permalink: choir
+permalink: choir.html
 ---
 Hello

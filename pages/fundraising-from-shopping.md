@@ -1,7 +1,7 @@
 ---
 title: Fundraising from shopping
 layout: page
-permalink: fundraising
+permalink: fundraising.html
 ---
 Did you know that whenever you buy anything online - from your weekly shop to your Christmas presents - you could be raising a free donation for ENT Church?
 There are nearly 3,000 retailers on board ready to make a donation, including Amazon, John Lewis, Aviva, th trainline and Sainsbury's – it doesn't cost you a penny extra!

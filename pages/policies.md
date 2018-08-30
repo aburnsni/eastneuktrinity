@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GDPR policies
-permalink: policies
+permalink: policies.html
 ---
 {:.table .table-striped}
 |----|

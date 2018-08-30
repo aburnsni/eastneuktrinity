@@ -3,6 +3,6 @@ layout: page
 title: "Brownies"
 categories: activities
 img: brownies.png
-permalink: brownies
+permalink: brownies.html
 ---
 Hello
