@@ -1,7 +1,0 @@
-mini_magick:
-  plant_thumbnail: # Preset name
-    source: /home/eastneuktrinity/tmp/git/ent/img/plant_images/originals # source directory - change this to whatever you want
-    destination: /home/eastneuktrinity/tmp/git/ent/img/plant_images/thumbnail # generated destination directory
-  plant_large: # Preset name
-    source: /home/eastneuktrinity/tmp/git/ent/img/plant_images/originals # source directory - change this to whatever you want
-    destination: /home/eastneuktrinity/tmp/git/ent/img/plant_images/large # generated destination directory
