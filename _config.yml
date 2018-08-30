@@ -25,6 +25,7 @@ google_api_key: AIzaSyBG1JbljIM9syp48e2PyMObv_j1aXe4ij0
 
 # Build settings
 markdown: kramdown
+future: false
 
 plugins: 
   - jekyll-paginate-v2
