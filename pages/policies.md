@@ -5,7 +5,12 @@ permalink: policies.html
 ---
 {:.table .table-striped}
 |----|
-|[GDPR Data Protection Policy](/files/gdpr.dataprotect.policy.pdf)          |
-|[GDPR Data Retention Policy](/files/gdpr.dataretention policy.pdf)         |
-|[GDPR Privacy Notice for Employees](/files/gdpr.privacynotice.employee.pdf)|
-|[GDPR Privacy Notice for Members](/files/gdpr.privacynotice.member.pdf)    |
+|[GDPR Data Protection Policy][1]       |
+|[GDPR Data Retention Policy][2]        |
+|[GDPR Privacy Notice for Employees][3] |
+|[GDPR Privacy Notice for Members][4]   |
+
+[1]: /files/gdpr.dataprotect.policy.pdf
+[2]: /files/gdpr.dataretention policy.pdf
+[3]: /files/gdpr.privacynotice.employee.pdf
+[4]: /files/gdpr.privacynotice.member.pdf
