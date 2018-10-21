@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GDPR policies
+title: Policies
 permalink: policies.html
 ---
 {:.table .table-striped}
