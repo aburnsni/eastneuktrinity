@@ -1,6 +1,6 @@
-<IfModule pagespeed_module>
-  ModPagespeed off
-</IfModule>
+# <IfModule pagespeed_module>
+#   ModPagespeed off
+# </IfModule>
 
 RewriteEngine On
 RewriteCond %{HTTPS} off
