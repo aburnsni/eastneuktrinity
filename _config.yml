@@ -38,16 +38,3 @@ collections:
      output: true
   plants:
     output: true
-
-mini_magick:
-  plant_thumbnail: # Preset name
-    source: img/plant_images/originals # source directory - change this to whatever you want
-    destination: img/plant_images/thumbnail # generated destination directory
-    size: "600x600"
-    resize: "300x300^"
-    gravity: "center"
-    extent: "300x300"
-  plant_large: # Preset name
-    source: img/plant_images/originals # source directory - change this to whatever you want
-    destination: img/plant_images/large # generated destination directory
-    resize: "1200x1200^"

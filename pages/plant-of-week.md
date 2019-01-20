@@ -1,7 +1,7 @@
 ---
 title: Plant of the Week
 layout: pow
-permalink: /plant-of-the-week
+permalink: /plant-of-the-week/
 pagination: 
   enabled: true
   collection: plants
