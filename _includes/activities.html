@@ -10,12 +10,12 @@
             {% assign mod2 = forloop.index | modulo: 2 %}
             {% assign mod3 = forloop.index | modulo: 3 %}
               <div class="card mb-4">
-                <a href="{{ post.url | relative.url }}">
+                <a href="{{ post.url | relative.url }}"></a>
                   <img class="card-img-top" src="img/activities/{{ post.img }}">
+                  <div class="card-body">
+                    <h4 class="card-title">{{ post.title }}</h4>
+                 </div>
                 </a>
-                <div class="card-body">
-                  <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                </div>
               </div>
               {% if mod2 == 0 %}<div class="w-100 d-block d-md-none"><!-- wrap every 2 on sm--></div>{% endif %}
               {% if mod3 == 0 %}<div class="w-100 d-none d-md-block"><!-- wrap every 3 on md--></div>{% endif %}
